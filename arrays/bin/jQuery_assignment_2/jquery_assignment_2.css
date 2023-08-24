@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+}
+#wrapper{
+    max-width: 800px;
+    max-height: 500px;
+    width: 800px;
+    height: 500px;
+    background:transparent;
+
+}
+#box1{
+    width: 100%;
+    height: 100%;
+}
+.inline{
+    border: 2px solid black;
+    display: inline-block;
+    width: 23%;
+    height: 50%;
+    padding-left: 8px;
+    background: grey;
+
+}
+.imageall{
+    width: 100%;
+    height: 100%;
+}
+button{
+    height: 30px;
+    font-size: 20px;
+    width: auto;
+
+}
+
+.toggle{
+    background-color:white;
+    border: 2px solid black;
+    width: 20%;
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    padding: 0px;
+    font-size: 14px;
+}
